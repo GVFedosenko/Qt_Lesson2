@@ -26,6 +26,18 @@ private slots:
 
     void on_button_ShowAllPersons_clicked();
 
+    void on_listWidget_currentTextChanged(const QString &currentText);
+
+    void on_pushButton_clicked();
+
+    void on_pushButton_4_clicked();
+
+    void on_Add_clicked();
+
+    void on_AddItem_clicked();
+
+    void on_pushButton_3_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
